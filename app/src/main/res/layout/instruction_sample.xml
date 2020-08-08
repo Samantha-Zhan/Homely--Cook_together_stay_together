@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/stepNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="1"
+            android:background = "@drawable/step_num"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="Make slightly more substantial than golf ball sized meatballs and place them into a Muffin pan like this one. Place a coat of non-stick cooking spray. (Make sure not to overpack meatballs as you want them to cook evenly and all the way through.)"
+            app:layout_constraintLeft_toRightOf="@id/stepNum" />
+
+</LinearLayout>

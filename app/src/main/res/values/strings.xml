@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="text_label_1">Home</string>
+    <string name="text_label_2">Explore</string>
+    <string name="text_label_3">Bookmark</string>
+    <string name="text_label_4">Me</string>
+    <string name="sourceUrl">\"BBB.baking.com\"</string>
+    <string name="Error_title">Oops! Sorry</string>
+    <string name="Error_button_text">Ok</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

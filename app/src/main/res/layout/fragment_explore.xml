@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.exploreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/filledTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical"
+            android:orientation="horizontal"
+            app:counterMaxLength="20"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:hintEnabled="false"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionSearch"
+                android:background="@color/lightGrey"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="search your recipe..."
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="@color/black"  />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/result_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filledTextField"
+            android:overScrollMode="never"/>
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_below="@id/filledTextField"
+            android:textSize="20dp"
+             />
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <!-- Media -->
+                <ImageView
+                    android:id="@+id/recipeImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Recipe Image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image_placeholder" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+
+
+                    <!-- Title, secondary and supporting text -->
+                    <Button
+                        android:id="@+id/bookmarkButton"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="11dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:background="@drawable/ic_added_bookmark_24" />
+
+                    <RelativeLayout
+                        android:id="@+id/Title_Layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toStartOf="@id/bookmarkButton">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:maxLines="2"
+                            android:text="Steam Tofu fewfes fjsofiwfo ijsfij oies jfieow"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="15dp"
+                            app:autoSizeTextType="uniform" />
+                    </RelativeLayout>
+
+
+
+                    <TextView
+                        android:id="@+id/fromTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Title_Layout"
+                        android:layout_marginTop="0dp"
+                        android:text="From "
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/sourceUrl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@id/fromTextView"
+                        android:layout_toRightOf="@id/fromTextView"
+                        android:text="@string/sourceUrl"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="11sp" />
+                    <!--https://stackoverflow.com/questions/4032676/how-can-i-change-the-color-of-a-part-of-a-textview-->
+                    <TextView
+                        android:id="@+id/propertyTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/fromTextView"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/oval_result"
+                        android:text="Ready in 30 mins"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorPrimaryNoDisable"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/propertyServing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/oval_result"
+                        android:layout_alignBaseline="@id/propertyTime"
+                        android:layout_toRightOf="@id/propertyTime"
+                        android:text="2 serving(s)"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorPrimaryNoDisable"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/propertyPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/propertyTime"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@drawable/oval_result"
+                        android:text="$2.35 per serving"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorPrimaryNoDisable"
+                        android:textSize="12sp" />
+
+
+
+                </RelativeLayout>
+
+                <!-- Buttons -->
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
