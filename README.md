@@ -1,4 +1,4 @@
-# Homely--Cook_together_stay_together
+# Homely--Cook_together_stay_together   🍜 🍛 🍔
 **An app that focuses on home cooking made easier.** </br>
 
 ## Background
