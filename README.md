@@ -27,4 +27,4 @@ Search Result Page             |  Additional Search Result Page
 
 Recipe Detail Sample 1             |  Recipe Detail Sample 2
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/recipe2.jpg?raw=true" width="330" height="980"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-004451_FoodApp.jpg?raw=true" width="330" height="940">
+<img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/recipe2.jpg?raw=true" width="330" height="940"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-004451_FoodApp.jpg?raw=true" width="330" height="940">
