@@ -13,13 +13,7 @@ Our mission is to make home cooking a ***simple***, ***intuitive***, and ***enjo
 
 ## Curently completed function: recipe search
 Built using Android Studio(Java); back-end supported by [spoonacular.com API](https://spoonacular.com/food-api). </br>
-(below are screen shots of the app) </br>
-
-
-
-Search Page             |  Search Result Page
-:-------------------------:|:-------------------------:
-<img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-003817_FoodApp.jpg?raw=true" width="330" height="700"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-003839_FoodApp.jpg?raw=true" width="330" height="700">
+(below are screen shots of the app; for more screenshot of app, please click on "recipe app-20..." folder above ) </br>
 
 Search Result Page             |  Additional Search Result Page
 :-------------------------:|:-------------------------:
@@ -28,3 +22,4 @@ Search Result Page             |  Additional Search Result Page
 Recipe Detail Sample 1             |  Recipe Detail Sample 2
 :-------------------------:|:-------------------------:
 <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/recipe2.jpg?raw=true" width="330" height="940"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-004451_FoodApp.jpg?raw=true" width="330" height="940">
+
