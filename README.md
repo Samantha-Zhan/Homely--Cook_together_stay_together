@@ -17,7 +17,7 @@ Our mission is to make home cooking a ***simple***, ***intuitive***, and ***enjo
 
 Search Result Page             |  Additional Search Result Page
 :-------------------------:|:-------------------------:
-<img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-003839_FoodApp.jpg?raw=true" width="330" height="700"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-003844_FoodApp.jpg?raw=true" width="330" height="700">
+<img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-003839_FoodApp.jpg?raw=true" width="330" height="700"> |  <img src="https://github.com/Samantha-Zhan/Homely--Cook_together_stay_together/blob/master/recipe%20app-20210113T055038Z-001/recipe%20app/Screenshot_20210113-004337_FoodApp.jpg?raw=true" width="330" height="700">
 
 Recipe Detail Sample 1             |  Recipe Detail Sample 2
 :-------------------------:|:-------------------------:
