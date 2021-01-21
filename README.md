@@ -11,7 +11,7 @@ A convenient app is handy for them to keep up with the good habit and become bet
 ## Our Mission 🍇
 Our mission is to make home cooking a ***simple***, ***intuitive***, and ***enjoyable*** thing to do by streamlining the whole proccess: recipe searching, planning, grocery shopping, cooking, enjoy, and repeat! Our idea come from our passion for food and home cooking. With years of cooking experiences, we summarized the problems and inconvenience we faced when we cook. We believe our app, Homely, is a great solution for it. 
 
-## Curently completed function: recipe search
+## Completed function: recipe search
 **Built using Android Studio(Java); back-end supported by [spoonacular.com API](https://spoonacular.com/food-api).** </br>
 *(below are screen shots of the app; for more screenshots, please click on "recipe app-20..." folder above)* </br>
 
